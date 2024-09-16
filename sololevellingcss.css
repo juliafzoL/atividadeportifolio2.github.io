@@ -1,0 +1,107 @@
+@font-face {
+    font-family:Solo;
+    src: url(glimmer\ of\ light.otf)format('truetype');
+    
+}
+.cabecalho {
+    font-family: pirata;
+}
+@font-face {
+    font-family:pirata;
+    src: url(PirataOne-Regular.ttf)format('truetype');
+    
+}
+.button {
+    font-family: Solo1;
+}
+
+body{
+    overflow: hidden;    /* e  ajuda a escurecer o back...*/ 
+}
+.container{
+    display: grid;
+    width:100% ;
+    height: 100%;
+}
+
+
+
+.background{
+    
+    background-image: linear-gradient(rgba(0,0, 0, 0.7)  , rgba(0,0,0,0.1)  ), url(222253\ \(1\).gif);
+    background-size: cover;
+    background-position:top  center;
+    width: 100%;
+    height: 100vh;
+    
+   
+    
+}
+header{
+    display: flex;
+    justify-content: space-around;/*dar um espaçamento*/
+    max-width: 100%;
+    align-items: center; /*e semtralizar os intens*/
+    text-align: center;
+    padding-top:1rem ;
+}
+.cabecalho{
+    display: flex;
+    gap: 7rem;          /* espacamentoe*/
+    font-weight: 300; /*e??*/
+    cursor: pointer;
+    padding: 7px;
+}
+.cabecalho a{
+    color: rgb(214, 199, 199);
+    font-size: 12px;
+    font-size: 15px;
+   
+    
+} 
+.cabecalho :hover{
+    color: rgb(180, 164, 175);   /* letra transi.*/
+    transition: 0.3s all;
+
+}
+.button{
+    color: rgb(233, 221, 221); /* cor da letra do bu*/
+    background: transparent;
+    cursor: pointer;
+    border: solid 1px rgb(36, 18, 28);
+    padding: 5px;
+    border-radius: 15px ;
+    font-size: 12px;
+    width: 150px;
+    
+
+}
+.button:hover{
+    background-color: rgb(65, 50, 60);
+    color: rgb(248, 130, 248);
+    transition: 0.5s;
+
+
+} 
+.container-texte{
+    padding: 150px 0 0 130px;
+
+}
+.textoSoloLevelling{
+    color: antiquewhite; /**/
+}
+.text h1{
+    color: aliceblue;       /* cor numero1*/
+    margin-top: 10px;
+}
+.span{
+    color: rgb(184, 64, 174);
+}
+p {
+    color: aliceblue;
+    font-size: 10px;
+    font-weight: 100;
+    margin-top: 50px;
+    font-size: 30px;
+
+}
